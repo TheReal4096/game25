@@ -389,33 +389,33 @@ hr {
     font-weight: bold;
     z-index: 10;
     font-size: 40px; }
-  .tile.tile-2 .tile-inner {
-    background: #eee4da;
+  .tile.tile--1 .tile-inner {
+    background: #f5f6f3;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile--2 .tile-inner {
-    background: #2f2d2b;
+    background: #c0c0c0;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-  .tile.tile-4 .tile-inner {
-    background: #ede0c8;
+  .tile.tile--3 .tile-inner {
+    background: #818181;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile--4 .tile-inner {
-    background: #423b2b;
+    background: #00f7ff;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
-  .tile.tile-8 .tile-inner {
+  .tile.tile--5 .tile-inner {
     color: #f9f6f2;
-    background: #f2b179; }
+    background: #017477; }
+  .tile.tile--6 .tile-inner {
+    color: #f9f6f2;
+    background: #017727; }
+  .tile.tile--7 .tile-inner {
+    color: #f9f6f2;
+    background: #2e7701; }
   .tile.tile--8 .tile-inner {
     color: #f9f6f2;
-    background: #ae6f3a; }
-  .tile.tile-16 .tile-inner {
+    background: #6b7701; }
+  .tile.tile--9 .tile-inner {
     color: #f9f6f2;
-    background: #f59563; }
-  .tile.tile--16 .tile-inner {
-    color: #f9f6f2;
-    background: #b95b2c; }
-  .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    background: #f67c5f; }
+    background: #775901; }
   .tile.tile--32 .tile-inner {
     color: #f9f6f2;
     background: #c34a2f; }
@@ -425,38 +425,38 @@ hr {
   .tile.tile--64 .tile-inner {
     color: #f9f6f2;
     background: #cc3513; }
-  .tile.tile-128 .tile-inner {
+  .tile.tile--10 .tile-inner {
     color: #f9f6f2;
-    background: #edcf72;
+    background: #770f01;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
+    font-size: 32px; }
     @media screen and (max-width: 520px) {
-      .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
-  .tile.tile--128 .tile-inner {
+      .tile.tile--10 .tile-inner {
+        font-size: 16px; } }
+  .tile.tile--11 .tile-inner {
     color: #f9f6f2;
-    background: #a1862c;
+    background: #770137;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
+    font-size: 32px; }
     @media screen and (max-width: 520px) {
-      .tile.tile--128 .tile-inner {
-        font-size: 25px; } }
-  .tile.tile-256 .tile-inner {
+      .tile.tile--11 .tile-inner {
+        font-size: 16px; } }
+  .tile.tile--12 .tile-inner {
     color: #f9f6f2;
-    background: #edcc61;
+    background: #77016c;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
+    font-size: 32px; }
     @media screen and (max-width: 520px) {
-      .tile.tile-256 .tile-inner {
-        font-size: 25px; } }
-  .tile.tile--256 .tile-inner {
+      .tile.tile--12 .tile-inner {
+        font-size: 16px; } }
+  .tile.tile--13 .tile-inner {
     color: #f9f6f2;
-    background: #b3952d;
+    background: #430177;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
+    font-size: 32px; }
     @media screen and (max-width: 520px) {
-      .tile.tile--256 .tile-inner {
-        font-size: 25px; } }
+      .tile.tile--13 .tile-inner {
+        font-size: 16px; } }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
     background: #edc850;
@@ -507,11 +507,11 @@ hr {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
-    background: #3c3a32;
-    font-size: 30px; }
+    background: #000000;
+    font-size: 32px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 10px; } }
+        font-size: 16px; } }
 
 @-webkit-keyframes appear {
   0% {
