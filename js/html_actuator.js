@@ -57,10 +57,38 @@ HTMLActuator.prototype.addTile = function (tile) {
   // We can't use classlist because it somehow glitches when replacing classes
   var classes = ["tile", "tile-" + tile.value, positionClass];
 
-  if (tile.value > 2048) classes.push("tile-super");
+  if (tile.value > 4096) classes.push("tile-super");
 
   this.applyClasses(wrapper, classes);
-
+  var outputtext = new Array();
+  outputtext[1] = "1";
+  outputtext[2] = "2";
+  outputtext[4] = "3";
+  outputtext[8] = "4";
+  outputtext[16] = "5";
+  outputtext[32] = "6";
+  outputtext[64] = "7";
+  outputtext[128] = "8";
+  outputtext[256] = "9";
+  outputtext[512] = "10";
+  outputtext[1024] = "11";
+  outputtext[2048] = "12";
+  outputtext[4096] = "13";
+  outputtext[-1] = "-1";
+  outputtext[-2] = "-2";
+  outputtext[-4] = "-3";
+  outputtext[-8] = "-4";
+  outputtext[-16] = "-5";
+  outputtext[-32] = "-6";
+  outputtext[-64] = "-7";
+  outputtext[-128] = "-8";
+  outputtext[-256] = "-9";
+  outputtext[-512] = "-10";
+  outputtext[-1024] = "-11";
+  outputtext[-2048] = "-12";
+  outputtext[-4096] = "-13";
+  outputtext[0] = "0";
+  
   inner.classList.add("tile-inner");
   inner.textContent = tile.value;
 
